@@ -103,7 +103,11 @@ export default function FormKaos() {
             </div>
 
             {/* Image */}
+<<<<<<< HEAD
             <div className="w-80 h-80 ml-25">
+=======
+            <div className="w-80 h-80 ml-20">
+>>>>>>> 3c3c0b9ba57f69134acc6041083e548c86ee2db7
               <img
                 src={item.img}
                 alt={item.name}

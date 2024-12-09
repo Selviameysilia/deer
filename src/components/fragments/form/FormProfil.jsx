@@ -13,7 +13,11 @@ export default function FormProfil() {
   const navigate = useNavigate();
 
   const handleNavigate = () => {
+<<<<<<< HEAD
     navigate("/edit-profil");
+=======
+    navigate("/edit-profil"); 
+>>>>>>> 3c3c0b9ba57f69134acc6041083e548c86ee2db7
   };
 
   return (
@@ -30,7 +34,10 @@ export default function FormProfil() {
             type="text"
             value={name}
             onChange={(e) => setName(e.target.value)}
+<<<<<<< HEAD
             disabled
+=======
+>>>>>>> 3c3c0b9ba57f69134acc6041083e548c86ee2db7
             className="flex-1 border-gray-400 rounded-lg"
           />
         </div>
@@ -45,7 +52,10 @@ export default function FormProfil() {
             type="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
+<<<<<<< HEAD
             disabled
+=======
+>>>>>>> 3c3c0b9ba57f69134acc6041083e548c86ee2db7
             className="flex-1 border-gray-400 rounded-lg"
           />
         </div>
@@ -60,7 +70,10 @@ export default function FormProfil() {
             type="tel"
             value={phone}
             onChange={(e) => setPhone(e.target.value)}
+<<<<<<< HEAD
             disabled
+=======
+>>>>>>> 3c3c0b9ba57f69134acc6041083e548c86ee2db7
             className="flex-1 border-gray-400 rounded-lg"
           />
         </div>
@@ -75,7 +88,10 @@ export default function FormProfil() {
             type="text"
             value={address}
             onChange={(e) => setAddress(e.target.value)}
+<<<<<<< HEAD
             disabled
+=======
+>>>>>>> 3c3c0b9ba57f69134acc6041083e548c86ee2db7
             className="flex-1 border-gray-400 rounded-lg"
           />
         </div>
@@ -85,7 +101,11 @@ export default function FormProfil() {
       <div className="flex justify-end space-x-4 mt-6">
         <Button
           className="bg-black text-white py-2 px-6 rounded-lg"
+<<<<<<< HEAD
           onClick={handleNavigate}
+=======
+          onClick={handleNavigate} 
+>>>>>>> 3c3c0b9ba57f69134acc6041083e548c86ee2db7
         >
           Perbarui Profil
         </Button>

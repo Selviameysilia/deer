@@ -46,6 +46,19 @@ export default function ProfilPage() {
               alt="Profil"
               className="w-40 h-40 drop-shadow-2xl rounded-lg mb-4 ml-12"
             />
+<<<<<<< HEAD
+=======
+            {/* Choose File */}
+            <div>
+              <input
+                id="file-upload"
+                type="file"
+                accept="image/*"
+                className="text-gray-700 border-gray-400 rounded-lg"
+                onChange={handleFileChange}
+              />
+            </div>
+>>>>>>> 3c3c0b9ba57f69134acc6041083e548c86ee2db7
           </div>
 
           {/* Form untuk pengeditan profil */}

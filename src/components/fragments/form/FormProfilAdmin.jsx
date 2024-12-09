@@ -29,7 +29,10 @@ export default function FormProfilAdmin() {
             type="text"
             value={name}
             onChange={(e) => setName(e.target.value)}
+<<<<<<< HEAD
             disabled 
+=======
+>>>>>>> 3c3c0b9ba57f69134acc6041083e548c86ee2db7
             className="flex-1 border-gray-400 rounded-lg"
           />
         </div>
@@ -44,7 +47,10 @@ export default function FormProfilAdmin() {
             type="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
+<<<<<<< HEAD
             disabled
+=======
+>>>>>>> 3c3c0b9ba57f69134acc6041083e548c86ee2db7
             className="flex-1 border-gray-400 rounded-lg"
           />
         </div>
@@ -59,7 +65,10 @@ export default function FormProfilAdmin() {
             type="tel"
             value={phone}
             onChange={(e) => setPhone(e.target.value)}
+<<<<<<< HEAD
             disabled
+=======
+>>>>>>> 3c3c0b9ba57f69134acc6041083e548c86ee2db7
             className="flex-1 border-gray-400 rounded-lg"
           />
         </div>
