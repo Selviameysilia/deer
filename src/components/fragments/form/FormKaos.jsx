@@ -82,7 +82,7 @@ export default function FormKaos() {
   };
 
   return (
-    <section className="py-10 px-10 bg-white">
+    <section className="py-32 px-10 bg-white">
       <h1 className="text-2xl font-bold mb-8 ml-10">KAOS</h1>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8 ml-10 mr-10">
         {kaosData.map((item, index) => (
@@ -103,7 +103,7 @@ export default function FormKaos() {
             </div>
 
             {/* Image */}
-            <div className="w-80 h-80 ml-20">
+            <div className="w-80 h-80 ml-30">
               <img
                 src={item.img}
                 alt={item.name}

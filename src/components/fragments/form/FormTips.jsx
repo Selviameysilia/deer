@@ -17,7 +17,7 @@ export default function FormTips() {
   };
 
   return (
-    <section className="py-10 px-10 bg-white">
+    <section className="py-32 px-10 bg-white">
       <p className="text-2xl font-bold mb-4 ml-8">TIPS FASHION</p>
       <p className="text-lg mb-4 ml-8 mr-8">
         Inspirasikan gaya anda dengan tips fashion terbaik dari pemilihan bahan,

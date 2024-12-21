@@ -23,7 +23,7 @@ export default function FormTambahKeranjang() {
   };
 
   return (
-    <div className="flex flex-col space-y-7">
+    <div className="flex flex-col space-y-7 pt-"> {/* Tambahkan pt-20 untuk padding atas */}
       {/* Nama produk */}
       <h1 className="text-2xl font-bold text-gray-800">Kaos kerah bulat</h1>
 

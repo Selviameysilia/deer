@@ -50,7 +50,7 @@ export default function FormFashionStyle() {
   ];
 
   return (
-    <section className="py-10 px-8 bg-white ml-10 mr-10 ">
+    <section className="py-32 px-8 bg-white ml-10 mr-10 ">
       {fashionStyles.map((category, index) => (
         <div key={index} className="mb-10">
           <h2 className="text-2xl font-bold mb-6">{category.category}</h2>

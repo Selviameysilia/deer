@@ -136,7 +136,7 @@ export default function FormKeranjang() {
         {/* Tombol Buat Pesanan */}
         <button
           onClick={handlePlaceOrder}
-          className="w-2/4 bg-black text-white py-2 rounded-lg font-bold mx-auto block ml-52"
+          className="w-2/4 bg-black text-white py-2 rounded-lg font-bold mx-auto block ml-48"
         >
           BUAT PESANAN
         </button>

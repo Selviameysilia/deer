@@ -46,7 +46,7 @@ export default function FormFavorit() {
   };
 
   return (
-    <section className="py-10 px-10 bg-white">
+    <section className="py-32 px-10 bg-white">
       {/* Header dengan Icon Back */}
       <div className="flex items-center mb-6 ml-10">
         <button
